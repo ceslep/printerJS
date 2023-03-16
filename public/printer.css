@@ -1,0 +1,29 @@
+#table{
+    color:black;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+   
+}
+
+#table th,tr,td{
+    border:1px solid black;
+}
+
+#table tr td:nth-child(1){
+    text-align: center;
+   width:5%;
+}
+
+#table tr td:nth-child(2){
+    text-align: start;
+    width:60%
+}
+#table tr td:nth-child(3){
+    text-align: end;
+    width: 35%;
+}
+
+#table > tr{
+            max-height: 14px;
+}
