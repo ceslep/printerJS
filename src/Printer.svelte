@@ -43,7 +43,7 @@
     <th>Valor</th>
   </thead>
   <tbody>
-    {#each datos as { item, precio }, index}
+    {#each datos as {item,precio}, index}
       <tr>
         <td>{index + 1}</td>
         <td>{item}</td>
